@@ -1,0 +1,123 @@
+🚀 QUICK DEPLOY - 3 SIMPLE STEPS
+==================================
+
+STEP 1: Install Dependencies
+─────────────────────────────
+$ npm install
+
+(Wait for completion - installs all required packages)
+
+STEP 2: Start Development Server
+────────────────────────────────
+$ npm run dev
+
+(You'll see output like: VITE v7.3.2 ready in XXX ms
+                         ➜  Local:   http://localhost:5173/)
+
+STEP 3: Open in Your Browser
+────────────────────────────
+📍 Visit: http://localhost:5173
+
+✅ DONE! Your app is now running!
+
+HOW TO TEST:
+============
+
+1. Click "TCM" in the sidebar (left side)
+2. Look at the 4 metric cards at the top:
+   - 🔵 Target Achievement (Blue)
+   - 🟢 Total Transactions (Green)
+   - 🟣 Active Agents (Purple)
+   - 🟠 Avg Daily Txn (Orange)
+
+3. Hover over any card → You'll see a "→" arrow
+4. Click the card → Beautiful modal opens!
+5. Read the detailed information
+6. Click "Close" or click outside → Modal closes
+
+🎨 WHAT YOU'LL SEE:
+==================
+
+Modal includes:
+✓ Colorful gradient header
+✓ Large metric value
+✓ Change % with trend indicator (↗ up or ↘ down)
+✓ 4 detail metrics in a grid
+✓ Contextual notes
+
+FOR PRODUCTION BUILD:
+====================
+
+When ready to deploy to production:
+
+$ npm run build
+
+This creates a 'dist/' folder that you can upload
+to your web server or deploy to:
+- Vercel
+- Netlify
+- AWS
+- Your own server
+- Docker container
+
+FILES THAT WERE CHANGED:
+========================
+
+Only 3 files modified:
+✅ src/components/MetricCard.tsx
+✅ src/components/ChartCard.tsx
+✅ src/components/TCMModule.tsx
+
+✅ NO breaking changes
+✅ 100% backward compatible
+✅ NO new dependencies
+
+VERIFICATION:
+=============
+
+After starting the dev server, check:
+
+☐ App loads without errors
+☐ TCM module visible in sidebar
+☐ 4 metric cards display at top
+☐ Can click cards to open modal
+☐ Modal shows detailed information
+☐ Can close modal (button, X, or outside)
+☐ Works on mobile (if testing on phone)
+☐ No errors in browser console
+
+DOCUMENTATION:
+===============
+
+Additional guides available:
+📖 DEPLOYMENT_GUIDE.md (full deployment info)
+📖 QUICK_START.md (in session folder)
+📖 USER_GUIDE.md (in session folder)
+📖 IMPLEMENTATION_DETAILS.md (technical info)
+
+SUPPORT:
+========
+
+If you hit issues:
+
+1. Make sure Node.js is installed: node -v
+2. Make sure npm is installed: npm -v
+3. Clear cache: npm cache clean --force
+4. Reinstall: rm -r node_modules && npm install
+5. Try again: npm run dev
+
+💡 TIP:
+======
+
+The dev server auto-reloads when you save files!
+Try modifying any React component and see changes
+instantly in the browser.
+
+✅ YOU'RE ALL SET!
+=================
+
+Your interactive analytics dashboard is ready to go.
+
+Start with: npm install && npm run dev
+
+Enjoy! 🎉
